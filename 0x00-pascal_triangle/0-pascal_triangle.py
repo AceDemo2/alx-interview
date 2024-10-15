@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+"""pascal_tri"""
+
+
 def pascal_triangle(n):
-    """pascal_triangle"""
+    """define func"""
+
     if n <= 0:
         return []
     res = [[1]]
