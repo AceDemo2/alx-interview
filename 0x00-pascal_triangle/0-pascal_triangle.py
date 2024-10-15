@@ -10,4 +10,3 @@ def pascal_triangle(n):
             val[j] = res[i-1][j-1] + res[i-1][j]
         res.append(val)
     return res
-
